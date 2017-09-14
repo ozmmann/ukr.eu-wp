@@ -117,7 +117,7 @@ add_action( 'widgets_init', 'ukreu_widgets_init' );
  * Enqueue scripts and styles.
  */
 function ukreu_scripts() {
-	wp_enqueue_style( 'ukreu-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'ukreu-style', get_template_directory() );
 
 	wp_enqueue_script( 'ukreu-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
