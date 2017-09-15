@@ -14,17 +14,43 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'ukreu' ) ); ?>"><?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'ukreu' ), 'WordPress' );
-			?></a>
-			<span class="sep"> | </span>
-			<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'ukreu' ), 'ukreu', '<a href="http://underscores.me/">Underscores.me</a>' );
-			?>
-		</div><!-- .site-info -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 hidden-xs">
+                    <div class="f-copyright">
+                        Copyright © 2014-2017 UKR.EU <br>
+                        Всі права захищені.
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <nav class="f-nav">
+                        <ul class="clearfix">
+                            <li><a href="#">Керування доменом</a></li>
+                            <li><a href="#">Хостинг</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Документи</a></li>
+                            <li><a href="#">Контакти</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="f-contact">
+                        <div class="icon-wrap"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                        </div>
+                        <span> 0 800 214 513</span>
+                        <a class="facebook">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3 hidden-lg hidden-md hidden-sm">
+                    <div class="f-copyright">
+                        Copyright © 2014-2017 UKR.EU <br>
+                        Всі права захищені.
+                    </div>
+                </div>
+            </div>
+        </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
