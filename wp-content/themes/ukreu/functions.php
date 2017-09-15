@@ -117,9 +117,13 @@ add_action( 'widgets_init', 'ukreu_widgets_init' );
  * Enqueue scripts and styles.
  */
 function ukreu_scripts() {
-	wp_enqueue_style( 'ukreu-style', get_template_directory() );
 
-	wp_enqueue_script( 'ukreu-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+    wp_enqueue_style( 'ukreu-style', get_template_directory() . '/css/bootstrap-grid.min.css' );
+    wp_enqueue_style( 'ukreu-style', get_template_directory() . '/css/normalize.css' );
+    wp_enqueue_style( 'style', get_stylesheet_directory_uri() . '/style.css');
+
+
+    wp_enqueue_script( 'ukreu-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'ukreu-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
