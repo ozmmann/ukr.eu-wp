@@ -10,10 +10,7 @@
  */
 
 ?>
-
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer">
+	<footer class="footer">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3 col-sm-3 hidden-xs">
@@ -24,13 +21,14 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <nav class="f-nav">
-                        <ul class="clearfix">
-                            <li><a href="#">Керування доменом</a></li>
-                            <li><a href="#">Хостинг</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Документи</a></li>
-                            <li><a href="#">Контакти</a></li>
-                        </ul>
+                        <?php wp_nav_menu(array('Theme_location'=>'Primary','menu_class'=>'clearfix', 'container'=>'false'));?>
+<!--                        <ul class="clearfix">-->
+<!--                            <li><a href="#">Керування доменом</a></li>-->
+<!--                            <li><a href="#">Хостинг</a></li>-->
+<!--                            <li><a href="#">FAQ</a></li>-->
+<!--                            <li><a href="#">Документи</a></li>-->
+<!--                            <li><a href="#">Контакти</a></li>-->
+<!--                        </ul>-->
                     </nav>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-12">
@@ -51,10 +49,11 @@
                 </div>
             </div>
         </div>
-	</footer><!-- #colophon -->
-</div><!-- #page -->
-
+	</footer>
+<script src="<?PHP bloginfo('template_url')?>/js/jquery-3.2.0.min.js"></script>
+<script src="<?PHP bloginfo('template_url')?>/js/jquery.customSelect.min.js"></script>
+<script src="<?PHP bloginfo('template_url')?>/js/select_lang.js"></script>
+<script src="<?PHP bloginfo('template_url')?>/js/menu.js"></script>
 <?php wp_footer(); ?>
-
 </body>
 </html>

@@ -45,17 +45,17 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
             <ul id="slides">
                 <li class="slide showing">
                     <div class="unit-title">Хостинг</div>
-                    <img src="img/advert-firs.png" alt="advert">
+                    <img src="<?php echo bloginfo('template_url')?>/img/advert-firs.png" alt="advert">
                     <div class="unit-more"><a href="#">Детальніше</a></div>
                 </li>
                 <li class="slide">
                     <div class="unit-title">Хостинг</div>
-                    <img src="img/advert-second.png" alt="advert">
+                    <img src="<?php echo bloginfo('template_url')?>/img/advert-second.png" alt="advert">
                     <div class="unit-more"><a href="#">Детальніше</a></div>
                 </li>
                 <li class="slide">
                     <div class="unit-title">Хостинг</div>
-                    <img src="img/advert-three.png" alt="advert">
+                    <img src="<?php echo bloginfo('template_url')?>/img/advert-three.png" alt="advert">
                     <div class="unit-more"><a href="#">Детальніше</a></div>
                 </li>
 
