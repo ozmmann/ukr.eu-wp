@@ -50,10 +50,6 @@
             </div>
         </div>
 	</footer>
-<!--<script src="--><?PHP //bloginfo('template_url')?><!--/js/jquery-3.2.0.min.js"></script>-->
-<!--<script src="--><?PHP //bloginfo('template_url')?><!--/js/jquery.customSelect.min.js"></script>-->
-<!--<script src="--><?PHP //bloginfo('template_url')?><!--/js/select_lang.js"></script>-->
-<script src="<?PHP bloginfo('template_url')?>/js/menu.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>
