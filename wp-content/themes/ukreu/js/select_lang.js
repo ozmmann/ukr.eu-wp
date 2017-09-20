@@ -1,6 +1,3 @@
-window.onload= function () {
-
-
 function changeLanguige (){
 	var obj = {};
 
@@ -52,4 +49,4 @@ function changeLanguige (){
 	}
 
 changeLanguige();
-window.addEventListener('resize',changeLanguige,false);}
+window.addEventListener('resize',changeLanguige,false);
