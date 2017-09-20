@@ -130,7 +130,6 @@ function ukreu_scripts() {
 
 
     wp_enqueue_script( 'ukreu-jquery', get_template_directory_uri() . '/js/jquery-3.2.0.min.js');
-    wp_enqueue_script( 'ukreu-select', get_template_directory_uri() . '/js/jquery.customSelect.min.js');
     wp_enqueue_script( 'ukreu-select-lang', get_template_directory_uri() . '/js/select_lang.js' );
     wp_enqueue_script( 'ukreu-menu', get_template_directory_uri() . '/js/menu.js');
     wp_enqueue_script( 'ukreu-slideHP', get_template_directory_uri() . '/js/slideHP.js');
@@ -167,4 +166,6 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+
 
