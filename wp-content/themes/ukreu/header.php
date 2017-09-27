@@ -50,11 +50,7 @@
                     <nav class="h-nav">
                         <a href="" class="touch-menu"><i class="fa fa-list" aria-hidden="true"></i></a>
                         <ul class=" h-menu">
-                            <li><a href="#">Керування доменом</a></li>
-                            <li><a href="#">Хостинг</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Документи</a></li>
-                            <li><a href="#">Контакти</a></li>
+                            <?php wp_nav_menu(array('Theme_location'=>'Primary','menu_class'=>'clearfix', 'container'=>'false'));?>
                         </ul>
                     </nav>
                 </div>
