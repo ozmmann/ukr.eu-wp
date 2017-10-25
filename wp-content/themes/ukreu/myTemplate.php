@@ -3,7 +3,9 @@
 Template Name: myTemplate
 */
 ?>
-<?php get_header(); ?>
+<?php get_header();
+    var_dump($_GET);
+?>
     <div class="container-fluid">
         <div class="row eq">
             <div class="col-md-3 col-sm-3 hidden-sm hidden-xs aside">

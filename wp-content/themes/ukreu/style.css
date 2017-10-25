@@ -35,7 +35,10 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-
+.login-page .lost_password,
+.login-page .u-column2 {
+    display: none;
+}
 div[class*='col-md'] {
   padding-left: 10px !important;
   padding-right: 10px !important;

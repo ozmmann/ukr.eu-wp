@@ -45,7 +45,7 @@
                 </div>
                 <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
                     <div class="logo">
-                        <img src="<?php echo bloginfo('template_url')?>/img/logo.png" alt="Logo">
+                        <a href="/"><img src="<?php echo bloginfo('template_url')?>/img/logo.png" alt="Logo"></a>
                     </div>
                     <nav class="h-nav">
                         <a href="" class="touch-menu"><i class="fa fa-list" aria-hidden="true"></i></a>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="col-md-3 col-sm-3 hidden-xs">
                     <div class="logo">
-                        <img src="<?php echo bloginfo('template_url')?>/img/logo.png" alt="Logo">
+                        <a href="/"><img src="<?php echo bloginfo('template_url')?>/img/logo.png" alt="Logo"></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-5 hidden-xs">
