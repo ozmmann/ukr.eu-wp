@@ -38,7 +38,16 @@ get_header( 'shop' ); ?>
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
 			<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
-
+            <table class="loop_table loop" cellspacing="0">
+                <thead>
+                <tr>
+                    <th class="product-price">&nbsp;</th>
+                    <th class="product_price"><?php _e( '1 Євро', 'woocommerce' ); ?></th>
+                    <th class="product_price"><?php _e( '2 Євро', 'woocommerce' ); ?></th>
+                    <th class="product_price"><?php _e( '3 Євро', 'woocommerce' ); ?></th>
+                </tr>
+                </thead>
+            <tbody>
 		<?php endif; ?>
 
 		<?php
@@ -84,6 +93,8 @@ get_header( 'shop' ); ?>
 					<?php wc_get_template_part( 'content', 'product' ); ?>
 
 				<?php endwhile; // end of the loop. ?>
+                </tbody>
+            </table>
 
 			<?php woocommerce_product_loop_end(); ?>
 
